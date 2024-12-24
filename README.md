@@ -33,3 +33,59 @@ This script is perfect for:
    ```bash
    git clone https://github.com/panther77byte/copy-multi-file.git
    cd copy-multi-file
+2. Edit the script to match your file paths and preferences: 
+   ```bash
+   source_files = [
+    r'C:\path\to\your\file1.txt',
+    r'C:\path\to\your\file2.txt'
+   ]  # List of source files to copy
+
+   destination_folder = r'C:\path\to\destination\folder'  # Destination directory
+   num_copies = 2500  # Number of copies to create for each file
+3. Run the script: 
+   ```bash
+   python cp-multi-file.py
+
+---
+
+## Example
+
+- **Source Files:
+   ```bash
+   C:\path\to\file1.txt  
+   C:\path\to\file2.txt
+
+- **Destination Folder: 
+   ```bash
+   C:\path\to\destination-folder
+
+- **Number of Copies:
+   ```bash
+   2500
+
+---
+
+## Requirements  
+- **The script will create copies in the destination folder like:
+  ```bash
+  1_file1.txt  
+  2_file1.txt  
+  ...  
+  2500_file1.txt  
+
+  1_file2.txt  
+  2_file2.txt
+  ...  
+  2500_file2.txt
+
+  ---
+
+## Error Handling
+
+- **If a source file doesn’t exist, the script will skip it and display a message:
+   ```bash
+   Source file does not exist: C:\path\to\missing-file.txt
+
+- **Errors during copying are logged with details:
+   ```bash
+   Error copying file C:\path\to\file1.txt to C:\path\to\destination-folder\1_file1.txt: [Error Message]
