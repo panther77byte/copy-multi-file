@@ -50,23 +50,23 @@ This script is perfect for:
 
 ## Example
 
-- **Source Files:
+- **Source Files**:
    ```bash
    C:\path\to\file1.txt  
    C:\path\to\file2.txt
 
-- **Destination Folder: 
+- **Destination Folder**: 
    ```bash
    C:\path\to\destination-folder
 
-- **Number of Copies:
+- **Number of Copies**:
    ```bash
    2500
 
 ---
 
 ## Requirements  
-- **The script will create copies in the destination folder like:
+- **The script will create copies in the destination folder like**:
   ```bash
   1_file1.txt  
   2_file1.txt  
@@ -82,10 +82,10 @@ This script is perfect for:
 
 ## Error Handling
 
-- **If a source file doesn’t exist, the script will skip it and display a message:
+- **If a source file doesn’t exist, the script will skip it and display a message**:
    ```bash
    Source file does not exist: C:\path\to\missing-file.txt
 
-- **Errors during copying are logged with details:
+- **Errors during copying are logged with details**:
    ```bash
    Error copying file C:\path\to\file1.txt to C:\path\to\destination-folder\1_file1.txt: [Error Message]
