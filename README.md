@@ -78,8 +78,7 @@ This script is perfect for:
   ...  
   2500_file2.txt
 
-  ---
-
+---
 ## Error Handling
 
 - **If a source file doesn’t exist, the script will skip it and display a message**:
